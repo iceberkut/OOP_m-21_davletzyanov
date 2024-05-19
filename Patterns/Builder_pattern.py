@@ -76,8 +76,6 @@ class SedanBuilder(CarBuilder):
         return self
 
 
-
-
 class CarDirector:
     def __init__(self, builder: CarBuilder):
         self.builder = builder
